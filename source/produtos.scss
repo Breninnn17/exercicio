@@ -1,0 +1,24 @@
+.products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+}
+
+.product-button {
+    display: block;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+    list-style: none;
+
+    &:hover{
+        background-color: rgb(73, 4, 73);
+    }
+}
